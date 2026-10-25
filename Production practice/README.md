@@ -1,3 +1,7 @@
 ﻿# Git Basics Lab
 
-# Work through init, commit, branch, merge, and conflict resolution.
+## Description
+Work through init, commit, branch, merge, and conflict resolution.
+
+## Status
+Status: drafting.
