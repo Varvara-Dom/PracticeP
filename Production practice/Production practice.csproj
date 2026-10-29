@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Common\ConsoleHelper.cs" />
     <Compile Include="Common\ITask.cs" />
+    <Compile Include="Tasks\Level2\Ex26_PatternStrategy.cs" />
+    <Compile Include="Tasks\Level2\Ex23_TheNullableTypes.cs" />
+    <Compile Include="Tasks\Level2\Ex25_TheInterfacePlusSorting.cs" />
+    <Compile Include="Tasks\Level2\Ex20_TheGeneralizations.cs" />
+    <Compile Include="Tasks\Level2\Ex21_TheEnumWeekday.cs" />
     <Compile Include="Menu\MenuRunner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,13 +67,27 @@
     <Compile Include="Tasks\Level1\Ex7_TheStringReverse.cs" />
     <Compile Include="Tasks\Level1\Ex8_FizzBuzz.cs" />
     <Compile Include="Tasks\Level1\Ex9_TheArray.cs" />
+    <Compile Include="Tasks\Level2\Ex16_TheSolutionMethod.cs" />
+    <Compile Include="Tasks\Level2\Ex17_TheStringBuilderVsConcatenation.cs" />
+    <Compile Include="Tasks\Level2\Ex18_TryParseVsTryCatch.cs" />
+    <Compile Include="Tasks\Level2\Ex19_OwnStackOrQueueToArray.cs" />
+    <Compile Include="Tasks\Level2\Ex22_ParamsMethodPlusOverload.cs" />
+    <Compile Include="Tasks\Level2\Ex24_OOPTheAnimals.cs" />
+    <Compile Include="Tasks\Level2\Ex27_MetodsForStudent.cs" />
+    <Compile Include="Tasks\Level2\Ex28_MethodsForPoint.cs" />
+    <Compile Include="Tasks\Level2\Ex29_PatternFactory.cs" />
+    <Compile Include="Tasks\Level2\Ex30_BankAccountAndOwnException.cs" />
+    <Compile Include="Tasks\Level2\Ex31_IDisposableAndUsing.cs" />
+    <Compile Include="Tasks\Level2\Ex32_TheValidationTemperature.cs" />
+    <Compile Include="Tasks\Level2\Ex33_LINQTheStaff.cs" />
+    <Compile Include="Tasks\Level2\Ex34_LINQFirstLetter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="git-notes.md" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tasks\Level2\" />
     <Folder Include="Tasks\Level3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
